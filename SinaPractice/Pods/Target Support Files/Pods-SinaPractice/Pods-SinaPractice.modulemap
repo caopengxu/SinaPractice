@@ -1,0 +1,6 @@
+framework module Pods_SinaPractice {
+  umbrella header "Pods-SinaPractice-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,21 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22491445B86BE763821100CB /* Pods_SinaPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A2CBFD314ED23C8D550624 /* Pods_SinaPractice.framework */; };
+		BF015A57205B9C1B0062F28A /* VisitorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF015A56205B9C1B0062F28A /* VisitorController.swift */; };
+		BF015A5C205B9D710062F28A /* VisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF015A5B205B9D710062F28A /* VisitorView.swift */; };
+		BF015A5E205B9D790062F28A /* VisitorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF015A5D205B9D790062F28A /* VisitorView.xib */; };
 		BF633472205B53AA002220D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF633471205B53AA002220D2 /* AppDelegate.swift */; };
-		BF633474205B53AA002220D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF633473205B53AA002220D2 /* ViewController.swift */; };
-		BF633477205B53AA002220D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF633475205B53AA002220D2 /* Main.storyboard */; };
 		BF633479205B53AA002220D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF633478205B53AA002220D2 /* Assets.xcassets */; };
 		BF63347C205B53AA002220D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF63347A205B53AA002220D2 /* LaunchScreen.storyboard */; };
+		BF633490205B5E8B002220D2 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF63348F205B5E8B002220D2 /* HomeController.swift */; };
+		BF633492205B5E93002220D2 /* HomeController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF633491205B5E93002220D2 /* HomeController.storyboard */; };
+		BF633494205B5EA6002220D2 /* MessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF633493205B5EA6002220D2 /* MessageController.swift */; };
+		BF633496205B5EB9002220D2 /* MessageController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF633495205B5EB9002220D2 /* MessageController.storyboard */; };
+		BF633498205B5EE1002220D2 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF633497205B5EE1002220D2 /* MainTabBarController.swift */; };
+		BF63349A205B5EEA002220D2 /* MainTabBarController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF633499205B5EEA002220D2 /* MainTabBarController.storyboard */; };
+		BF63349C205B5EFA002220D2 /* DiscoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF63349B205B5EFA002220D2 /* DiscoverController.swift */; };
+		BF63349E205B5F02002220D2 /* DiscoverController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF63349D205B5F02002220D2 /* DiscoverController.storyboard */; };
+		BF6334A0205B5F11002220D2 /* ComposeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF63349F205B5F11002220D2 /* ComposeController.swift */; };
+		BF6334A2205B5F17002220D2 /* ComposeController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6334A1205B5F17002220D2 /* ComposeController.storyboard */; };
+		BF6334A4205B5F2C002220D2 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6334A3205B5F2C002220D2 /* ProfileController.swift */; };
+		BF6334A6205B5F34002220D2 /* ProfileController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6334A5205B5F34002220D2 /* ProfileController.storyboard */; };
+		BF6334A8205B606C002220D2 /* NullController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6334A7205B606C002220D2 /* NullController.swift */; };
+		BF6334AA205B6072002220D2 /* NullController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6334A9205B6072002220D2 /* NullController.storyboard */; };
+		BF6334AC205B6152002220D2 /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = BF6334AB205B6152002220D2 /* MainVCSettings.json */; };
+		BF6334AE205B6394002220D2 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6334AD205B6394002220D2 /* UIButton+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		51A2CBFD314ED23C8D550624 /* Pods_SinaPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SinaPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63452B2D53FDD81D2862D772 /* Pods-SinaPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SinaPractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-SinaPractice/Pods-SinaPractice.release.xcconfig"; sourceTree = "<group>"; };
+		BF015A56205B9C1B0062F28A /* VisitorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorController.swift; sourceTree = "<group>"; };
+		BF015A5B205B9D710062F28A /* VisitorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorView.swift; sourceTree = "<group>"; };
+		BF015A5D205B9D790062F28A /* VisitorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VisitorView.xib; sourceTree = "<group>"; };
 		BF63346E205B53AA002220D2 /* SinaPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinaPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF633471205B53AA002220D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF633473205B53AA002220D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BF633476205B53AA002220D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF633478205B53AA002220D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF63347B205B53AA002220D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF63347D205B53AA002220D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF63348F205B5E8B002220D2 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		BF633491205B5E93002220D2 /* HomeController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeController.storyboard; sourceTree = "<group>"; };
+		BF633493205B5EA6002220D2 /* MessageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageController.swift; sourceTree = "<group>"; };
+		BF633495205B5EB9002220D2 /* MessageController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MessageController.storyboard; sourceTree = "<group>"; };
+		BF633497205B5EE1002220D2 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		BF633499205B5EEA002220D2 /* MainTabBarController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainTabBarController.storyboard; sourceTree = "<group>"; };
+		BF63349B205B5EFA002220D2 /* DiscoverController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverController.swift; sourceTree = "<group>"; };
+		BF63349D205B5F02002220D2 /* DiscoverController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DiscoverController.storyboard; sourceTree = "<group>"; };
+		BF63349F205B5F11002220D2 /* ComposeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeController.swift; sourceTree = "<group>"; };
+		BF6334A1205B5F17002220D2 /* ComposeController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ComposeController.storyboard; sourceTree = "<group>"; };
+		BF6334A3205B5F2C002220D2 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		BF6334A5205B5F34002220D2 /* ProfileController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileController.storyboard; sourceTree = "<group>"; };
+		BF6334A7205B606C002220D2 /* NullController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NullController.swift; sourceTree = "<group>"; };
+		BF6334A9205B6072002220D2 /* NullController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NullController.storyboard; sourceTree = "<group>"; };
+		BF6334AB205B6152002220D2 /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
+		BF6334AD205B6394002220D2 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		C5524B66E52DB757A7E357D4 /* Pods-SinaPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SinaPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SinaPractice/Pods-SinaPractice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +67,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22491445B86BE763821100CB /* Pods_SinaPractice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7BBF939E235C8AE6BF48FBA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51A2CBFD314ED23C8D550624 /* Pods_SinaPractice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8446D31ADC127FBEABEC5601 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5524B66E52DB757A7E357D4 /* Pods-SinaPractice.debug.xcconfig */,
+				63452B2D53FDD81D2862D772 /* Pods-SinaPractice.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF015A55205B9BF60062F28A /* Sign */ = {
+			isa = PBXGroup;
+			children = (
+				BF015A5A205B9D5D0062F28A /* View */,
+				BF015A56205B9C1B0062F28A /* VisitorController.swift */,
+			);
+			path = Sign;
+			sourceTree = "<group>";
+		};
+		BF015A5A205B9D5D0062F28A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF015A5B205B9D710062F28A /* VisitorView.swift */,
+				BF015A5D205B9D790062F28A /* VisitorView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		BF633465205B53AA002220D2 = {
 			isa = PBXGroup;
 			children = (
 				BF633470205B53AA002220D2 /* SinaPractice */,
 				BF63346F205B53AA002220D2 /* Products */,
+				8446D31ADC127FBEABEC5601 /* Pods */,
+				7BBF939E235C8AE6BF48FBA9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +131,92 @@
 			isa = PBXGroup;
 			children = (
 				BF633471205B53AA002220D2 /* AppDelegate.swift */,
-				BF633473205B53AA002220D2 /* ViewController.swift */,
-				BF633475205B53AA002220D2 /* Main.storyboard */,
 				BF633478205B53AA002220D2 /* Assets.xcassets */,
 				BF63347A205B53AA002220D2 /* LaunchScreen.storyboard */,
 				BF63347D205B53AA002220D2 /* Info.plist */,
+				BF633483205B5D32002220D2 /* Code */,
 			);
 			path = SinaPractice;
+			sourceTree = "<group>";
+		};
+		BF633483205B5D32002220D2 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				BF63348A205B5D32002220D2 /* Main */,
+				BF015A55205B9BF60062F28A /* Sign */,
+				BF633484205B5D32002220D2 /* Home */,
+				BF633488205B5D32002220D2 /* Message */,
+				BF633487205B5D32002220D2 /* Compose */,
+				BF633486205B5D32002220D2 /* Discover */,
+				BF633489205B5D32002220D2 /* Profile */,
+				BF633485205B5D32002220D2 /* Tools */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		BF633484205B5D32002220D2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BF63348F205B5E8B002220D2 /* HomeController.swift */,
+				BF633491205B5E93002220D2 /* HomeController.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BF633485205B5D32002220D2 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				BF6334AD205B6394002220D2 /* UIButton+Extension.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		BF633486205B5D32002220D2 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				BF63349B205B5EFA002220D2 /* DiscoverController.swift */,
+				BF63349D205B5F02002220D2 /* DiscoverController.storyboard */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		BF633487205B5D32002220D2 /* Compose */ = {
+			isa = PBXGroup;
+			children = (
+				BF63349F205B5F11002220D2 /* ComposeController.swift */,
+				BF6334A1205B5F17002220D2 /* ComposeController.storyboard */,
+			);
+			path = Compose;
+			sourceTree = "<group>";
+		};
+		BF633488205B5D32002220D2 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				BF633493205B5EA6002220D2 /* MessageController.swift */,
+				BF633495205B5EB9002220D2 /* MessageController.storyboard */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		BF633489205B5D32002220D2 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				BF6334A3205B5F2C002220D2 /* ProfileController.swift */,
+				BF6334A5205B5F34002220D2 /* ProfileController.storyboard */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		BF63348A205B5D32002220D2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BF6334AB205B6152002220D2 /* MainVCSettings.json */,
+				BF633497205B5EE1002220D2 /* MainTabBarController.swift */,
+				BF633499205B5EEA002220D2 /* MainTabBarController.storyboard */,
+				BF6334A7205B606C002220D2 /* NullController.swift */,
+				BF6334A9205B6072002220D2 /* NullController.storyboard */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF633480205B53AB002220D2 /* Build configuration list for PBXNativeTarget "SinaPractice" */;
 			buildPhases = (
+				42B31CF3429F09A2E576528F /* [CP] Check Pods Manifest.lock */,
 				BF63346A205B53AA002220D2 /* Sources */,
 				BF63346B205B53AA002220D2 /* Frameworks */,
 				BF63346C205B53AA002220D2 /* Resources */,
+				CE1B54ADAA5A0EC842B86DA5 /* [CP] Embed Pods Frameworks */,
+				3B88AFF3F6F17540B020D8C5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,34 +282,94 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF63347C205B53AA002220D2 /* LaunchScreen.storyboard in Resources */,
+				BF633492205B5E93002220D2 /* HomeController.storyboard in Resources */,
 				BF633479205B53AA002220D2 /* Assets.xcassets in Resources */,
-				BF633477205B53AA002220D2 /* Main.storyboard in Resources */,
+				BF633496205B5EB9002220D2 /* MessageController.storyboard in Resources */,
+				BF63349A205B5EEA002220D2 /* MainTabBarController.storyboard in Resources */,
+				BF6334A2205B5F17002220D2 /* ComposeController.storyboard in Resources */,
+				BF6334AC205B6152002220D2 /* MainVCSettings.json in Resources */,
+				BF63349E205B5F02002220D2 /* DiscoverController.storyboard in Resources */,
+				BF6334A6205B5F34002220D2 /* ProfileController.storyboard in Resources */,
+				BF6334AA205B6072002220D2 /* NullController.storyboard in Resources */,
+				BF015A5E205B9D790062F28A /* VisitorView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B88AFF3F6F17540B020D8C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SinaPractice/Pods-SinaPractice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42B31CF3429F09A2E576528F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SinaPractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE1B54ADAA5A0EC842B86DA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SinaPractice/Pods-SinaPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BF63346A205B53AA002220D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF633474205B53AA002220D2 /* ViewController.swift in Sources */,
+				BF015A5C205B9D710062F28A /* VisitorView.swift in Sources */,
+				BF6334A4205B5F2C002220D2 /* ProfileController.swift in Sources */,
+				BF63349C205B5EFA002220D2 /* DiscoverController.swift in Sources */,
 				BF633472205B53AA002220D2 /* AppDelegate.swift in Sources */,
+				BF6334A0205B5F11002220D2 /* ComposeController.swift in Sources */,
+				BF015A57205B9C1B0062F28A /* VisitorController.swift in Sources */,
+				BF633498205B5EE1002220D2 /* MainTabBarController.swift in Sources */,
+				BF6334AE205B6394002220D2 /* UIButton+Extension.swift in Sources */,
+				BF633490205B5E8B002220D2 /* HomeController.swift in Sources */,
+				BF6334A8205B606C002220D2 /* NullController.swift in Sources */,
+				BF633494205B5EA6002220D2 /* MessageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BF633475205B53AA002220D2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF633476205B53AA002220D2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BF63347A205B53AA002220D2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,31 +490,35 @@
 		};
 		BF633481205B53AB002220D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5524B66E52DB757A7E357D4 /* Pods-SinaPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WGX7CRRVZ2;
 				INFOPLIST_FILE = SinaPractice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cpx.SinaPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		BF633482205B53AB002220D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63452B2D53FDD81D2862D772 /* Pods-SinaPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WGX7CRRVZ2;
 				INFOPLIST_FILE = SinaPractice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cpx.SinaPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
